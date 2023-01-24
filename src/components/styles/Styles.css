@@ -1,0 +1,369 @@
+@font-face {
+  font-family: Imported;
+  src: url(../fonts/Fonts/sofiapro-light.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Ghost VPN Onboarding Page  */
+
+:root {
+  --main-bg-color: #283641;
+  --dark-bg-color: #151515;
+  --yellow-bg-color: #ffc107;
+  --white-color: #fff;
+  --green-color: #40ff92;
+}
+
+.first-layer {
+  text-align: center;
+  display: flex;
+  max-height: 300vh;
+}
+.second-layer {
+  margin: 30px auto 10px;
+
+  background: var(--main-bg-color);
+  width: 375px;
+  height: 800px;
+  border-radius: 16px;
+}
+
+.rocket {
+  width: 300px;
+  height: 300px;
+  background: #283641;
+  margin-top: 193px;
+  margin-left: 65px;
+  margin-bottom: 120px;
+}
+
+button.btn-1 {
+  width: 327px;
+  height: 48px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(100.12deg, #40ff92 56.34%, #00ca69 119.04%);
+  font-family: Imported;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 17px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #151515;
+}
+button.btn-1:hover {
+  background: linear-gradient(100.12deg, #80f5b2 56.34%, #7eeeb8 119.04%);
+  color: var(--white-color);
+  font-weight: bolder;
+}
+
+button.btn-2 {
+  width: 327px;
+  height: 48px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(100.12deg, #f99e24 56.34%, #ffc107 119.04%);
+  font-family: Imported;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 17px;
+  margin: 24px;
+  cursor: pointer;
+  color: #151515;
+}
+
+button.btn-2:hover {
+  background: linear-gradient(100.12deg, #e99e3c 56.34%, #f5c537 119.04%);
+  color: var(--white-color);
+  font-weight: bolder;
+}
+
+/* Ghost VPN Disconnected Page  */
+
+.third-layer {
+  text-align: center;
+  position: relative;
+}
+
+.fourth-layer {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  background: var(--dark-bg-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 375px;
+  height: 800px;
+  border-radius: 16px;
+}
+
+.wrap {
+  margin: 20px;
+  background: var(--dark-bg-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.vector-img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  background: var(--main-bg-color);
+  border-radius: 24px;
+  position: relative;
+}
+
+.vector {
+  position: absolute;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 35px;
+  background: var(--main-bg-color);
+}
+
+.yellow-rect {
+  position: absolute;
+  margin-top: 46px;
+  margin-left: 26px;
+  background: var(--main-bg-color);
+}
+
+img.rectangle {
+  background: var(--dark-bg-color);
+  margin-top: 24px;
+  float: left;
+  margin-left: 225px;
+}
+
+h2 {
+  font-family: Imported;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  text-align: right;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 235px;
+}
+h1 {
+  font-family: Imported;
+  font-weight: bolder;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  background: #fafafa;
+  margin-top: 75px;
+}
+
+h3 {
+  font-family: Imported;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 13px;
+  text-align: center;
+  background: #151515;
+  color: rgba(250, 250, 250, 0.6);
+  margin-top: 8px;
+}
+h1,
+h2 {
+  background: #151515;
+  color: var(--white-color);
+}
+
+.ellipse-one {
+  background-color: var(--dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-right: 46%;
+  position: relative;
+}
+
+.vectorUp {
+  background: var(--yellow-bg-color);
+  position: absolute;
+  margin-right: 66px;
+}
+
+h4 {
+  font-family: Imported;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  background: var(--dark-bg-color);
+  color: var(--white-color);
+  margin-left: 8px;
+}
+
+.ellipse-yellow {
+  background-color: var(--dark-bg-color);
+}
+
+.ellipse-two {
+  background-color: var(--dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 230px;
+  top: 0;
+  margin-top: 248px;
+}
+
+.vectorDown {
+  background: var(--green-color);
+  position: absolute;
+  margin-right: 73px;
+}
+
+.ellipse-green {
+  background-color: var(--dark-bg-color);
+}
+
+.circles {
+  background: var(--dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.outline-circle {
+  background: var(--dark-bg-color);
+  margin-top: 23px;
+}
+.outer-circle {
+  background: var(--dark-bg-color);
+  position: absolute;
+  margin: 37px;
+  cursor: pointer;
+}
+
+.inner-circle {
+  position: absolute;
+  background: var(--green-color);
+  cursor: pointer;
+}
+
+.switch-button {
+  position: absolute;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: var(--green-color);
+}
+
+.premium-btn {
+  width: 177px;
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 48px;
+  border: none;
+  background: var(--main-bg-color);
+  color: var(--yellow-bg-color);
+  text-align: center;
+  font-family: Imported;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+}
+.premium-btn:hover {
+  cursor: pointer;
+}
+
+.trophy-img {
+  position: absolute;
+  background-color: var(--main-bg-color);
+  margin-top: 12px;
+  margin-left: 27px;
+}
+
+.trophy-img:hover {
+  cursor: pointer;
+}
+
+button,
+.text-btn {
+  margin-left: 13px;
+  background: var(--main-bg-color);
+}
+
+button,
+.text-btn:hover {
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.text-btn {
+  color: var(--yellow-bg-color);
+}
+
+/* Ghost VPN Connecting Page  */
+
+.subtitle-connecting {
+  color: var(--yellow-bg-color);
+}
+
+/* Ghost VPN Connected Page  */
+
+.arrowUp {
+  background: var(--yellow-bg-color);
+  position: absolute;
+  margin-right: 72px;
+}
+
+.arrowDown {
+  background: var(--green-color);
+  position: absolute;
+  margin-right: 77px;
+}
+
+.subtitle-connected {
+  color: var(--green-color);
+}
+
+.circle {
+  background: var(--dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outline {
+  background: var(--dark-bg-color);
+  margin-top: 23px;
+}
+.outer {
+  background: var(--dark-bg-color);
+  position: absolute;
+  margin: 37px;
+}
+
+.inner {
+  position: absolute;
+  background: var(--green-color);
+}
+
+.switch-button-white {
+  position: absolute;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: var(--green-color);
+}
+
+/* Positioning components at the center */
+
+.fourth-layer {
+  margin-left: auto;
+  margin-right: auto;
+}
